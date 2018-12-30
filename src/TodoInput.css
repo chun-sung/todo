@@ -1,0 +1,39 @@
+.todo-input {
+    border-top: 1px solid powderblue;
+    border-bottom: 1px soldi black;
+
+    display: flex;
+    padding: 1rem;
+    
+
+}
+
+input {
+    flex: 1;
+    font-size: 1.1rem;
+    outline: none;
+    background: transparent;
+    border-bottom: 1px solid red
+}
+
+input:focus {
+     border-bottom: 1px solid cyan
+}
+
+.add-button {
+    width: 5rem;
+    height: 2rem;
+    margin-left: 1rem;
+    border: 1px solid green;
+    color: green;
+    font-weight: 500;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;    
+}
+.add-button:hover {
+    background: blue;
+    color: white;
+}

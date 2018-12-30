@@ -1,0 +1,22 @@
+.todo-item {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.tick{
+  margin-right: 1rem;
+}
+
+.text{
+  flex: 1;
+  word-break: break-all;
+}
+
+.delte:hover {
+  background: red;
+}
+.todo-item + .todo-item {
+   border-top: 1px solid black;
+}
