@@ -5,6 +5,10 @@
   cursor: pointer;
 }
 
+.todo-item.done {
+  text-decoration: line-through;
+}
+
 .tick{
   margin-right: 1rem;
 }
