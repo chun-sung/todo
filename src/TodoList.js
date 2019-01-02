@@ -12,7 +12,7 @@ class TodoList extends Component {
           done={todo.done}
           onToggle={() => onToggle(todo.id)}
           onRemove={() => onRemove(todo.id)}>          
-          {todo.text}
+          {todo.text} 
         </TodoItem>
       )
     );

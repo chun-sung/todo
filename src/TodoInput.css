@@ -1,7 +1,6 @@
 .todo-input {
     border-top: 1px solid powderblue;
     border-bottom: 1px soldi black;
-
     display: flex;
     padding: 1rem;
     
@@ -17,7 +16,8 @@ input {
 }
 
 input:focus {
-     border-bottom: 1px solid cyan
+     border-bottom: 1px solid cyan;
+     background: powderblue
 }
 
 .add-button {
@@ -34,6 +34,6 @@ input:focus {
     cursor: pointer;    
 }
 .add-button:hover {
-    background: blue;
+    background: orchid;
     color: white;
 }

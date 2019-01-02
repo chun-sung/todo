@@ -83,10 +83,12 @@ handleRemove = (id) => {
    const { input, todos } = this.state;
    const { handleChange, handleInsert, handleToggle, handleRemove } = this;
     return (
-      <PageTemplate>
+      <div>         
+      <PageTemplate>          
           <TodoInput onChange={handleChange} onInsert={handleInsert}  value={input} />
           <TodoList todos={todos} onToggle={handleToggle} onRemove={handleRemove} />
       </PageTemplate>
+      </div>
     )
   }
 }
